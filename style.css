@@ -30,11 +30,12 @@ a {
     cursor: pointer;
     display: flex;
     align-items: center;
-}
+ }
 
-.logo img {
-    height: 1.8rem;
-}
+ 
+ .logo img {
+     height: 1.8rem;
+ }
 
 .nav-links {
     display: flex;
@@ -104,17 +105,24 @@ a {
     text-align: center;
 }
 
-.mobile-nav li {
+
+
+.mobile-nav-links {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.mobile-nav-links li {
     margin: 10px 0;
 }
 
-.mobile-nav a {
+.mobile-nav-links a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .nav-links, .nav-buttons {
         display: none;
@@ -140,6 +148,7 @@ a {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
 
 
 /* Hero  */
